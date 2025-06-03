@@ -11,11 +11,12 @@ import Inde from './source/index.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Cat />
-    <Button />
+    {/* <Cat /> */}
+    {/* <Button />
     <Praveen />
     <Foreign />
     <Tradi />
-    <Inde />
+    <Inde /> */}
+    <App />
   </StrictMode>,
 )
