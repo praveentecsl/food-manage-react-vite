@@ -1,8 +1,9 @@
 export default function nutrition(){
     return(
         <>
-              <header>
+            <header>
                 <h1>Nutritional Values</h1>
+                <button>click me praveen</button>
                 {/* <nav>
                 <a href="index.html">Home</a>
                 <a href="foreign.html">Foreign Foods</a>
