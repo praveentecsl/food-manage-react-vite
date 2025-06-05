@@ -3,6 +3,8 @@ import Foreign from './new_comp/foreign.jsx'
 import Tradi from './new_comp/traditional.jsx'
 import Home from './new_comp/home.jsx'
 import Navbar from './new_comp/navbar.jsx'
+import Nutri from './new_comp/nutrition.jsx'
+import './style.css'
 
 
 export default function App(){
@@ -13,6 +15,7 @@ export default function App(){
         <Route path= "/" element={<Home />} />
         <Route path= "/foreign" element= {<Foreign />} />
         <Route path= "/traditional" element= {<Tradi />} />
+        <Route path= "/nutritional" element={<Nutri />} />
 
 
 

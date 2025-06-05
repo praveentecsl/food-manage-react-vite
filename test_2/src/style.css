@@ -15,14 +15,15 @@ header {
 }
 
 nav {
-  margin-top: 10px;
+  margin-top: 0.50px;
 }
 
 nav a {
   color: #26cd63;
   margin: 0 15px;
-  text-decoration: none;
+  text-decoration:wavy;
   font-weight: bold;
+  font-size:xx-large;
 }
 
 nav a:hover {
