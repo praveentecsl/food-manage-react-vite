@@ -1,9 +1,9 @@
-export default function foreign(){
+export default function traditional(){
     return(
         
-            <html>
+            
              
-                <body>
+                <>
                 <header>
                     <h1>Traditional Sri Lankan Foods</h1>
                     <nav>
@@ -22,8 +22,8 @@ export default function foreign(){
                 <footer>
                     <p>&copy; 2025 Food Management Project</p>
                 </footer>
-                </body>
-            </html>
+                </>
+            
         
     )
 }
