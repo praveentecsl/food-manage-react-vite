@@ -1,5 +1,5 @@
 import Second_nav from './second_nav.jsx'
-import { Routes,Route } from "react-router-dom"
+import { Outlet} from "react-router-dom"
 import Bus from './bus.jsx'
 
 export default function clickme(){
@@ -7,13 +7,12 @@ export default function clickme(){
         <>
             <div>
                 <h1>what is your choice ?????</h1>
+                <Second_nav />
+                <Outlet />
             </div>
             
-            <Second_nav />
 
-            <Routes>
-                <Route path="bus" element= {<Bus />} />
-            </Routes>
+            
 
 
         </>
