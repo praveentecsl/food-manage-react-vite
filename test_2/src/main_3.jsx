@@ -1,16 +1,16 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
-import './index.css'
-import App from './App.jsx'
-import ClassComponents from './components/ClassComponents.jsx'
+import './index.jsx'
+import New from './components/ClassState.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter >
     
+      <New />  
         
-        <App/>
     </BrowserRouter>
     
   </StrictMode>,
