@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import './index.jsx'
 import New from './components/ClassState.jsx'
+import Changebg from './components/changebg.jsx'
+import Dynamic from './components/dynamicbg.jsx'
 
 
 
@@ -10,7 +12,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter >
     
-      <New />  
+      <Dynamic />  
         
     </BrowserRouter>
     
