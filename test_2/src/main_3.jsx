@@ -5,6 +5,7 @@ import './index.jsx'
 import New from './components/ClassState.jsx'
 import Changebg from './components/changebg.jsx'
 import Dynamic from './components/dynamicbg.jsx'
+import Props from './components/props.jsx'
 
 
 
@@ -12,7 +13,10 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter >
     
-      <Dynamic />  
+      <Props 
+      age= {40000000000000}
+      name={"chandeepa weerasinghe"}
+      />  
         
     </BrowserRouter>
     
