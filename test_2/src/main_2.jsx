@@ -5,13 +5,14 @@ import './index.css'
 import App from './App.jsx'
 import ClassComponents from './components/ClassComponents.jsx'
 import FunctionalComponents from './components/FunctionalComponents.jsx'
+import Use_effects from './components/use_effects.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter >
     
         
-        <FunctionalComponents/>
+        <Use_effects/>
     </BrowserRouter>
     
   </StrictMode>,
