@@ -1,12 +1,12 @@
 import React from 'react'
-import children from './children.jsx'
+import Children from './children.jsx'
 
-export const parent = ({Children}) => {
+export const parent = () => {
   return (
     <>
      <div>parent</div>
-     {Children}
-    
+     {/* {Children}
+     */}
     
     </>
   )
