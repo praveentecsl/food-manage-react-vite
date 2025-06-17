@@ -1,6 +1,6 @@
 import React from 'react'
 
-function children() {
+const children = () => {
   return (
     <div>children</div>
   )
