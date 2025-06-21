@@ -1,4 +1,4 @@
-import React ,{useState} from 'react'
+import React ,{useEffect, useState} from 'react'
 import axios from 'axios'
 
 const aaxios = () => {
@@ -7,17 +7,22 @@ const aaxios = () => {
     const [city,setCity] = useState()
 
     const handleEnter= (e) => {
-        console.log(e.target.value)
+        setCity(e.target.value)
     }
 
-    axios.get("http://api.example.com/users")
-    .then(response => {
-        setVal(response?.data?.body)
-        console.log(response)
-    })
-    .catch(error =>{
-        console.error('error fetching user :',error)
-    });
+    useEffect(()=>{
+      
+          axios.get('http://api.weatherapi.com/v1/current.json?key=151miHt3Ay1FLgc8DzjeZFjXN5eiJvnmVh=&q-${city}'
+)
+          .then(response => {
+              setVal(response?.data?.body)
+              console.log(response)
+          })
+          .catch(error =>{
+              console.error('error fetching user :',error)
+          });
+
+    },[city])
 
   return (
     <>
