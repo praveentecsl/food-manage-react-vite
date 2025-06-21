@@ -1,13 +1,13 @@
 import React ,{useState} from 'react'
 import axios from 'axios'
 
-const axios = () => {
+const aaxios = () => {
 
     const [val,setVal] = useState()
     const [city,setCity] = useState()
 
     const handleEnter= (e) => {
-        setCity(e.target.value)
+        console.log(e.target.value)
     }
 
     axios.get("http://api.example.com/users")
@@ -23,10 +23,10 @@ const axios = () => {
     <>
     
     <div>axios</div>
-    <input onChange={(e)=>handleEnter(e)}/>
+    <input onChange={handleEnter}/>
     
     </>
   )
 }
 
-export default axios
+export default aaxios
