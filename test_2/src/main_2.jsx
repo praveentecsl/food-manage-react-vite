@@ -16,13 +16,16 @@ import UseRef_1 from './components/useRef_1.jsx'
 import Parent from './components/parent.jsx'
 import Children_1 from './components/children_1.jsx'
 import Axios from './components/axios.jsx'
+import First from './tailwind/first.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter >
 
-     <Axios/>
+     <>
+     <First/>
+     </>
         
     </BrowserRouter>
     
