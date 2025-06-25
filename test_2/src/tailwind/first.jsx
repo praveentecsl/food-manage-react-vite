@@ -13,7 +13,7 @@ const first = () => {
 
       <br />
 
-      <h1 className="text-3xl font-bold underline">venuja !</h1>
+      <h1 className="text-3xl font-bold underline">venuja!</h1>
 
       <div className="bg-blue-500 text-white p-4 rounded-md shadow-md">
         Welcome to Tailwind + React!
